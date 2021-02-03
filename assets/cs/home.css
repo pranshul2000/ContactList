@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: gray;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    background-color: yellow;
+    margin-bottom: 5px;
+    width: 60%;
+}
+.contact:hover{
+    background-color: gray;
+    transition: 0.5s ease-in-out;
+}
